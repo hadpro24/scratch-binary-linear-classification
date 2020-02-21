@@ -7,6 +7,7 @@ binary linear classification from scratch with sigmoid function based gradient d
 Z est une fonction linear de la forme : Z = X.delta (teta est l'ensemble des parametres associe a chaque feature de notre dataset -- X est donc une matrice contenant l'ensemble du dataset.)
 
 L'objectif de la sigmoid est de nous aider a trouver une frontiere de decision.
+
 ![png](Screenshot from 2020-02-21 16-03-01.png)
 
 # Representation (0, 1)
