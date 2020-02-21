@@ -8,7 +8,7 @@ Z est une fonction linear de la forme : Z = X.delta (teta est l'ensemble des par
 
 L'objectif de la sigmoid est de nous aider a trouver une frontiere de decision.
 
-![png](Screenshot-from-2020-02-21 16-03-01.png)
+![png](11222.png)
 
 # Representation (0, 1)
 La particularité de fonction est d'etre comprise en 0 et 1
