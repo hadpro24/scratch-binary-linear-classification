@@ -1,6 +1,9 @@
 # scratch-binary-linear-classification
 binary linear classification from scratch with sigmoid function based gradient decente
 
+![png](1_aOXjpKnAUdxYeu2_wJGtLA.png.png)
+![png](1_nqv9cVgNQpZDOJuz0Q6L0A.jpeg.png.png)
+
 
 ## Import tools
 
