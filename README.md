@@ -202,7 +202,7 @@ class ClassificationLinearCustom():
         if x.shape[1] != self.coefs_.shape[0]:
             return ValueError("The features of x do not have the same size as those to train")
         for xi in x:
-            ypred_proba +=[1] if self.sigmoid(self.coefs_, xi) > 0.5 else [0]
+            ypred_proba +=[1] if self.sigmoid(self.coefs_, xi) >= 0.5 else [0]
         return np.array(ypred_proba)
 ```
 
