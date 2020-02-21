@@ -4,8 +4,19 @@ binary linear classification from scratch with sigmoid function based gradient d
 # Function sigmoid
 ![png](1_aOXjpKnAUdxYeu2_wJGtLA.png)
 
+Z est une fonction linear de la forme : Z = X.delta (teta est l'ensemble des parametres associe a chaque feature de notre dataset -- X est donc une matrice contenant l'ensemble du dataset.)
+
+L'objectif de la sigmoid est de nous aider a trouver une frontiere de decision.
+![png](Screenshot from 2020-02-21 16-03-01.png)
+
 # Representation (0, 1)
+La particularité de fonction est d'etre comprise en 0 et 1
 ![png](1_nqv9cVgNQpZDOJuz0Q6L0A.jpeg)
+
+A partir de cette fonction, on définit une frontière de
+décision au seuil à 0.5 comme ceci :
+`y = 0 si sigmoid(X.delta) < 0.5`
+`y = 1 si sigmoid(X.delta) >= 0.5`
 
 
 ## Import tools
