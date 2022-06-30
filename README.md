@@ -19,6 +19,8 @@ décision au seuil à 0.5 comme ceci :
 `y = 0 si sigmoid(X.delta) < 0.5`
 `y = 1 si sigmoid(X.delta) >= 0.5`
 
+Source : Guillaume - Machine Learnia
+
 
 ## Import tools
 
